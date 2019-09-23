@@ -67,7 +67,7 @@ public class HUD : MonoBehaviour
 
     private void DecreaseShovelCount()
     {
-        if (startShovelNumber > 0)
+        if (startShovelNumber > 1)
         {
             startShovelNumber--;
             shovelCount.text = startShovelNumber.ToString();
