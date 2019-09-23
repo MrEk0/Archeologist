@@ -63,6 +63,5 @@ public class FieldTile : MonoBehaviour
         Vector3Int currentCell = fieldTilemap.WorldToCell(position);
 
         fieldTilemap.SetTile(currentCell, null);
-        Debug.Log("Delete");
     }
 }
