@@ -12,9 +12,6 @@ public class FieldTile : MonoBehaviour
     [SerializeField] List<GameObject> dropItems;
     [SerializeField] Tilemap fieldTilemap;
 
-    private Vector3 previousPosition;
-    private int tileLevel = 0;
-
     public event Action OnClick;
 
     private void OnMouseDown()
