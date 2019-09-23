@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using UnityEngine.EventSystems;
 using Random = UnityEngine.Random;
 
 public class FieldTile : MonoBehaviour
@@ -18,6 +19,9 @@ public class FieldTile : MonoBehaviour
 
     private void OnMouseDown()
     {
+        if (EventSystem.current.IsPointerOverGameObject())
+            return;
+
         OnClick();
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
