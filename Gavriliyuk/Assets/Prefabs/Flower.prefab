@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3135631583990391013}
   - component: {fileID: 3135631583990391012}
-  - component: {fileID: 2367785748809471324}
   - component: {fileID: 5304010642474379978}
+  - component: {fileID: 7698976266267411883}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Flower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 3135631583990391011}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -6.29, y: 0.64, z: -4.65625}
-  m_LocalScale: {x: 0.624, y: 0.618, z: 1}
+  m_LocalScale: {x: 0.72134405, y: 0.8608466, z: 1.156}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -70,7 +70,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8d9359c36a4b34a45ae08dd4d6d4a8db, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1307e94927ba0974c93c356f110df5ea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -81,18 +81,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2367785748809471324
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3135631583990391011}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6308d433154542439fafce8d273a141, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &5304010642474379978
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -119,3 +107,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.28, y: 1.06}
   m_EdgeRadius: 0
+--- !u!114 &7698976266267411883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3135631583990391011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6308d433154542439fafce8d273a141, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
