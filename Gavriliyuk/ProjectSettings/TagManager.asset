@@ -38,6 +38,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Level5
+    uniqueID: 168832659
+    locked: 0
+  - name: Level4
+    uniqueID: 3596016679
+    locked: 0
+  - name: Level3
+    uniqueID: 1923035115
+    locked: 0
+  - name: Level2
+    uniqueID: 3384611381
+    locked: 0
+  - name: Level1
+    uniqueID: 2734698191
+    locked: 0
   - name: Grid
     uniqueID: 1647906731
     locked: 0
